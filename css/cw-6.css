@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+    background-color: #cfa6d3; /* สีแดง */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.website-title {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between; /* จัดลิงค์และช่องค้นหาให้อยู่คนละฝั่ง */
+    align-items: center;
+    background-color: #555; /* สีดำ/เทาเข้ม */
+    padding: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.nav-links a:hover {
+    color: #a67eaa; /* สีเหลืองเมื่อเมาส์ลอยอยู่ */
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #b386c0;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left {
+    flex: 3;
+    padding: 20px;
+}
+
+.welcome-text {
+    color: #070000;
+    font-size: 20px;
+}
+
+.study-plan-title {
+    font-size: 18px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    background-color: #cab4d1;
+    padding: 20px;
+}
+
+.sidebar-item {
+    background-color: #555;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar-link:hover {
+    background-color: #777;
+    color: #a78ac7;
+}
+
+/* Table */
+.study-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.study-table th, .study-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.study-table thead th {
+    background-color: #eee;
+}
+
+.study-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pink-row {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+/* Footer */
+.footer {
+    background-color: #ce9bb4;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
